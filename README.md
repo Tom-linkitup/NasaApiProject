@@ -1,6 +1,7 @@
 # Nasa Api Project
-# Api doc https://api.nasa.gov/
 
-# Mars Rover Photos
+Api doc https://api.nasa.gov/
 
-# How to use
+Mars Rover Photos
+
+How to use
