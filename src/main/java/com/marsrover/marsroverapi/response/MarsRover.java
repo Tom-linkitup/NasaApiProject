@@ -19,12 +19,15 @@ public class MarsRover {
     @JsonProperty("launch_date")
     private String launchDate;
 
+    private String status;
+
     @Override
     public String toString() {
         return "MarsRover{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", landingDate=" + landingDate +
+                ", status=" + status +
                 '}';
     }
 }

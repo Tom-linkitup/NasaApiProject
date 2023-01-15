@@ -1,15 +1,17 @@
 package com.marsrover.marsroverapi.dto;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 public class MarsRoverApiDto {
 
-    private String marsApiRoverData;
+    private String roverName;
     private Integer marsSol;
     private Boolean cameraFhaz;
     private Boolean cameraRhaz;
@@ -24,7 +26,7 @@ public class MarsRoverApiDto {
     @Override
     public String toString() {
         return "MarsRoverApiDto{" +
-                "marsApiRoverData='" + marsApiRoverData + '\'' +
+                "roverName='" + roverName + '\'' +
                 ", marsSol=" + marsSol +
                 ", cameraFhaz=" + cameraFhaz +
                 ", cameraRhaz=" + cameraRhaz +
