@@ -67,8 +67,8 @@ public class MarsRoverApiService {
                 if (camerasOnRover.get(dto.getRoverName()).contains(cameraName)) {
                     urls.add("https://api.nasa.gov/mars-photos/api/v1/rovers/" + dto.getRoverName()
                             + "/photos?sol=" + dto.getMarsSol()
-                            + "&api_key=" + API_KEY
-                            + "&camera=" + cameraName);
+                            + "&camera=" + cameraName.toUpperCase()
+                            + "&api_key=" + API_KEY);
                 }
             }
         }
