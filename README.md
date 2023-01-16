@@ -18,3 +18,7 @@ Mars Rover Photos
 >
 
 Type **http://localhost:8080** in your browser.
+
+**Choose the Rover and camera and sol days and finally submit**
+
+**It will return photos from Rovers**
