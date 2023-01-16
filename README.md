@@ -10,11 +10,23 @@ Mars Rover Photos
 
 - Maven
 - Java 11
+- Docker
 
 **Running the JAR directly**
 - Build and run with Maven from the root directory of the project: 
 >
 > ./mvnw clean package && java -jar target/MarsRoverApi-0.0.1-SNAPSHOT.jar
+>
+### OR
+
+**Running as a Docker Container**
+- Build local docker image
+>
+> docker build -t marsrover .
+>
+- Run the image
+>
+> docker run -p 8080:8080 --name marsrover marsrover 
 >
 
 Type **http://localhost:8080** in your browser.
